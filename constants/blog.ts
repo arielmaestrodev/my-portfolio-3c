@@ -49,7 +49,7 @@ export const BLOG_POSTS: BlogPost[] = [
     content: "Next.js is a framework that make it easy to build full-stack application. It provides file-based routing, server components, and more.",
     category: ["tech", "nextjs"],
     date: "February 7, 2026",
-    author: "Rigel Recurerdo"
+    author: "Rigel Recurerdo" 
   },
   {
     id: "2",
@@ -73,16 +73,6 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     id: "4",
-    slug: "work-life-balance",
-    title: "Work Life Balance",
-    overview: "Tips for staying healthy while being a developer.",
-    content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-    category: ["life"],
-    date: "February 7, 2026",
-    author: "Rey Inoc"
-  },
-  {
-    id: "5",
     slug: "work-life-balance",
     title: "Work Life Balance",
     overview: "Tips for staying healthy while being a developer.",
