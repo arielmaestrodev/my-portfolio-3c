@@ -1,7 +1,15 @@
+import { HeroBanner } from "@/components/features/home/HeroBanner";
+import { Projects } from "@/components/features/home/Projects";
+import { Skills } from "@/components/features/home/Skills";
+import { Contact } from "@/components/features/home/Contact";
+
 export default function HomePage() {
   return (
-    <div>
-      Main Pagess
-    </div>
+    <>
+      <HeroBanner />
+      <Projects />
+      <Skills />
+      <Contact />
+    </>
   )
 }
